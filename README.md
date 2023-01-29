@@ -5,3 +5,7 @@
 
 First, we need to create a GitHub repository and provide access to the repository and push the code into the repository.
 
+
+We need to do one thing manually: log in to the AWS account where you need to deploy our application and create two secrets with the names "emrimages" and "github".
+
+
