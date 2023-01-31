@@ -30,6 +30,6 @@
 
 * For example, you can refer this link of Headless CMS application.
 
-*For triggering the pipeline, we need to create one release example "backend .0.0.1_dev1" and under the Code Pipeline use the S3 bucket to store our code, and Secret Manager for image tag. Then push the image to the ECR repo which is present in the  verb-common AWS account. After that, trigger the code build and code deploy, and it will build & deploy the application in containers.
+* For triggering the pipeline, we need to create one release example "backend .0.0.1_dev1" and under the Code Pipeline use the S3 bucket to store our code, and Secret Manager for image tag. Then push the image to the ECR repo which is present in the  verb-common AWS account. After that, trigger the code build and code deploy, and it will build & deploy the application in containers.
 
-*For more understanding of how the CI/CD pipeline is working, you can go through this Confluence page.
+* For more understanding of how the CI/CD pipeline is working, you can go through this Confluence page.
