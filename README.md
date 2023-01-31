@@ -11,14 +11,8 @@ We need to do one thing manually: log in to the AWS account where you need to de
 We need to create one ECR repository and push the images there. For ECR, we have one common AWS account for all projects with the name "Verb-common"; you can create an ECR repository by triggering this Terraform script.
 
 Firstly, a VPC is created in the us-west-1 region and within the VPC, two public and two private subnets are created in us-west-1a and us-west-1b availability zones. An ECS Fargate Cluster is created and containers under the Private subnet 
-
-
-
-
-
-
-
-
+Ecs containers are also connected with databases and IAM roles for access, and ECR repos are also connected with containers.
+For our application, we are accessing the internet, so for this we are connecting a private subnet to a NAT gateway, the NAT gateway to a public subnet, and lastly the public subnet is connected to an internet gateway.
 
 How to access the application on the internet.
 There are two containers available in private subnet.
