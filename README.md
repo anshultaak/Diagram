@@ -11,3 +11,21 @@ We need to do one thing manually: log in to the AWS account where you need to de
 We need to create one ECR repository and push the images there. For ECR, we have one common AWS account for all projects with the name "Verb-common"; you can create an ECR repository by triggering this Terraform script.
 
 Firstly, a VPC is created in the us-west-1 region and within the VPC, two public and two private subnets are created in us-west-1a and us-west-1b availability zones. An ECS Fargate Cluster is created and containers under the Private subnet 
+
+
+
+
+
+
+
+
+
+How to access the application on the internet.
+There are two containers available in private subnet.
+Containers are connected with each other through an application load balancer.To access the application from outside.
+The application load balancer is also interconnected with the security group and AWS Certificate Manager.
+The security group is connected to an application load balancer used for security purposes.
+In the security groups, we can define which traffic can access our application.
+ACM are also connected with Application Load Balancers for managing AWS Certificates. ACM is designed to protect and manage the private keys used with SSL/TLS certificates.
+Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service it returns IP addresses for dns records quired by the dns resolver.
+ Route 53 connects user requests to internet applications running on AWS or on-premises.
