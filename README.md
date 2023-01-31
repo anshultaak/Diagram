@@ -29,3 +29,7 @@ In the security groups, we can define which traffic can access our application.
 ACM are also connected with Application Load Balancers for managing AWS Certificates. ACM is designed to protect and manage the private keys used with SSL/TLS certificates.
 Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service it returns IP addresses for dns records quired by the dns resolver.
  Route 53 connects user requests to internet applications running on AWS or on-premises.
+ 
+ 
+ First, we need to go to the GitHub repository where our code is available, and there we need to create a new folder named "build". Inside this folder, we need to create a code pipeline YAML file and a bash script.
+For example, you can go with this link of Headless CMS application.
