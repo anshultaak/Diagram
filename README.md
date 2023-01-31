@@ -1,7 +1,8 @@
-# Diagram
+# Infrastructure of ECS Fargate
 
 ![Untitled Diagram drawio (8)](https://user-images.githubusercontent.com/76546821/215265956-45f82a59-bfba-4714-84cf-798a4bef0830.png)
 
+# Explanation of infrastructure and how it works
 
 First, we need to create a GitHub repository and provide access to the Devlopers and push the code into the repository.
 
@@ -29,3 +30,4 @@ First, we need to go to the GitHub repository where our code is available, and t
 For example, you can go with this link of Headless CMS application.
 
 For the trigger pipeline, we need to create one release example "backend .0.0.1_dev1" and under the Code Pipeline use the S3 bucket to store our code and Secret Manager for image tag. Then push the image to the ECR repo which is present in the  verb-common AWS account After that, trigger the code build and code deploy, and it will deploy the application in containers.
+For more understanding of how the CI/CD pipeline is working, you can go through this Confluence page.
