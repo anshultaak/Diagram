@@ -31,5 +31,7 @@ Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web 
  Route 53 connects user requests to internet applications running on AWS or on-premises.
  
  
- First, we need to go to the GitHub repository where our code is available, and there we need to create a new folder named "build". Inside this folder, we need to create a code pipeline YAML file and a bash script.
+First, we need to go to the GitHub repository where our code is available, and there we need to create a new folder named "build". Inside this folder, we need to create a code pipeline YAML file and a bash script.
 For example, you can go with this link of Headless CMS application.
+
+For the trigger pipeline, we need to create one release example "backend .0.0.1_dev1" and under the Code Pipeline use the S3 bucket to store our code and Secret Manager for image tag. Then push the image to the ECR repo which is present in the  verb-common AWS account After that, trigger the code build and code deploy, and it will deploy the application in containers.
