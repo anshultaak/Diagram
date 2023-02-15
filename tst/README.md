@@ -7,3 +7,5 @@ In the Terraform module folder, we have six modules,ecrrepo,fargate,pipeline-bac
 * Pipeline-frontend :- Under the pipeline-frontend module IT makes a FRONTend deployment application code....
 * Pulse-rds:- Pulse-RDS makes MySQL RDS database backups.
 * Slack-notification:- Slack notification module integrates code pipeline notification with DevOps notification channel under the Slack notification module.
+
+Under the ECR repo, we create the Terraform TF files. Under those TF files, we create the ECR repo resoucre and IAM cross-account policies. These cross-region policies are created because ECR repository is on one AWS account and Ecs clusters are present on different AWS accounts for the communication between ECR and ECS, so we created cross-region policies.
