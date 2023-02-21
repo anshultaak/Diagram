@@ -2,6 +2,9 @@
 
 ![Untitled Diagram drawio (8)](https://user-images.githubusercontent.com/76546821/215265956-45f82a59-bfba-4714-84cf-798a4bef0830.png)
 
+![Untitled Diagram drawio (19)](https://user-images.githubusercontent.com/76546821/220324690-623cafa9-0b45-4107-a644-9ea01627c4b6.png)
+
+
 # Explanation of infrastructure and how it works
 
 * First, we need to create a GitHub repository and provide access to the Devlopers and push the code into the repository.
