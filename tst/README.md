@@ -18,7 +18,7 @@ Under the ECR repo, we create the Terraform TF files. Under those TF files, we c
 * There is one IAM role attached to the ECS task definition for ECS permissions.
 
 ### Pipeline-backend
-The first step is to create an AWS CodeBuild credential for GitHub access.
+First, the AWS CodeBuild credential is created for GitHub access. Then, a webhook is created and attached to CodeBuild so that if someone creates a new release under GitHub repo, it will automatically trigger the CodePipeline to build trigger appliaction
 
 
 ### Pulse-rds:
