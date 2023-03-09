@@ -13,6 +13,7 @@ Under the ECR repo, we create the Terraform TF files. Under those TF files, we c
 
 ### Fargate:
 * Initially, an ECS Fargate cluster is created in a region. That cluster is created under two private subnets and those private subnets are connected to a public subnet through a NAT gateway. A security group is also attached to the ECS cluster.
+* It created an Application Load Balancer for application access on the internet. Under the ALB, two target groups were created and attached to the ECS container through the private IP of the container.
 * Two security groups are also created; one is connected with ECS and another one is connected with ALB to enable ports 80 and 443 for accessing the application on the internet.
 
 ### Pulse-rds:
