@@ -13,9 +13,10 @@ Under the ECR repo, we create the Terraform TF files. Under those TF files, we c
 
 ### Fargate
 Initially, an ECS Fargate cluster is created in a region. That cluster is created under two private subnets and those private subnets are connected to a public subnet through a NAT gateway. A security group is also attached to the ECS cluster.
+Two security groups are also created; one is connected with ECS and another one is connected with ALB to enable ports 80 and 443 for accessing the application on the internet.
 
-* Pulse-rds
+### Pulse-rds
 Under the pulse-rds repo, we create the db.tf files. Under those db.tf files, we create the db subnet group, identifier and the  mysql engine, username, and password.
 
-* Slack-notification
+### Slack-notification
 Under the Slack Notification repository, we create the Terraform TF files. Under those Terraform TF files, we create the Slack Notification resources, AWS IAM role, AWS Chatbot Slack channel guardrail policies, and AWS IAM role policies.
