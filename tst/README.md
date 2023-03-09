@@ -8,8 +8,14 @@ In the Terraform module folder, we have six modules,ecrrepo,fargate,pipeline-bac
 * Pulse-rds:- Pulse-RDS makes MySQL RDS database backups.
 * Slack-notification:- Slack notification module integrates code pipeline notification with DevOps notification channel under the Slack notification module.
 
+* Ecrrepo:
 Under the ECR repo, we create the Terraform TF files. Under those TF files, we create the ECR repo resoucre and IAM cross-account policies. These cross-region policies are created because ECR repository is on one AWS account and Ecs clusters are present on different AWS accounts for the communication between ECR and ECS, so we created cross-region policies.
 
+* Fargate
+
+
+* Pulse-rds
 Under the pulse-rds repo, we create the db.tf files. Under those db.tf files, we create the db subnet group, identifier and the  mysql engine, username, and password.
 
+* Slack-notification
 Under the Slack Notification repository, we create the Terraform TF files. Under those Terraform TF files, we create the Slack Notification resources, AWS IAM role, AWS Chatbot Slack channel guardrail policies, and AWS IAM role policies.
