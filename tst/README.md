@@ -17,6 +17,10 @@ Under the ECR repo, we create the Terraform TF files. Under those TF files, we c
 * Two security groups are also created; one is connected with ECS and another one is connected with ALB to enable ports 80 and 443 for accessing the application on the internet.
 * There is one IAM role attached to the ECS task definition for ECS permissions.
 
+### Pipeline-backend
+The first step is to create an AWS CodeBuild credential for GitHub access.
+
+
 ### Pulse-rds:
 Under the pulse-rds repo, we create the db.tf files. Under those db.tf files, we create the db subnet group, identifier and the  mysql engine, username, and password.
 
