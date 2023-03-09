@@ -18,8 +18,8 @@ Under the ECR repo, we create the Terraform TF files. Under those TF files, we c
 * There is one IAM role attached to the ECS task definition for ECS permissions.
 
 ### Pipeline-backend
-First, the AWS CodeBuild credential is created for GitHub access. Then, a webhook is created and attached to CodeBuild so that if someone creates a new release under GitHub repo, it will automatically trigger the CodePipeline to build the application.
-
+* First, the AWS CodeBuild credential is created for GitHub access. Then, a webhook is created and attached to CodeBuild so that if someone creates a new release under GitHub repo, it will automatically trigger the CodePipeline to build the application.
+* It created the AWS CodeBuild project under which we defined build timeout and queued timeout and some environment variables like application name, project name. It also created an IAM role under which we need to define S3 policy, CodeDeploy policy, ECS policy, and load balancer policy for communication between these services and Code Pipeline without any authentication errors.
 
 ### Pulse-rds:
 Under the pulse-rds repo, we create the db.tf files. Under those db.tf files, we create the db subnet group, identifier and the  mysql engine, username, and password.
