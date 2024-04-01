@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T10:25:00.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="zJsJSQ-tNzflbHrShPdR" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T10:28:20.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="_JVXWNSsTrN1oHL8hNrn" version="24.2.1" type="github">
   <diagram name="Page-1" id="9KJO48fIUPDz2tg5-Mfo">
     <mxGraphModel dx="2885" dy="2215" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -107,6 +107,9 @@
             <mxPoint x="670" y="520" as="sourcePoint" />
             <mxPoint x="720" y="470" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="T2VU-b4CfG1w7KPEFj-V-35" value="&lt;b&gt;&lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 19px;&quot;&gt;Google Cloud Platform&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-50" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
