@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Page-1" id="J42WkS2B89UVK2kPN1kL">
-    <mxGraphModel dx="2173" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2614" dy="2091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-1" value="x" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="-200" width="1730" height="1140" as="geometry" />
         </mxCell>
         <mxCell id="Tg3254VQat_Gvoc-51zZ-2" value="zaperon-user-backend&lt;br&gt;port:5000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -46,7 +46,7 @@
         <mxCell id="Tg3254VQat_Gvoc-51zZ-16" value="Elasticsearch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="-100" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.092;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-5">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.092;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;strokeWidth=2;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="130" as="sourcePoint" />
             <mxPoint x="310" y="80" as="targetPoint" />
@@ -55,7 +55,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-16">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="100" as="sourcePoint" />
             <mxPoint x="240" y="50" as="targetPoint" />
@@ -67,7 +67,7 @@
         <mxCell id="Tg3254VQat_Gvoc-51zZ-21" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="740" y="-103.5" width="130" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tg3254VQat_Gvoc-51zZ-2" target="Tg3254VQat_Gvoc-51zZ-21">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="Tg3254VQat_Gvoc-51zZ-2" target="Tg3254VQat_Gvoc-51zZ-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="100" as="sourcePoint" />
             <mxPoint x="200" y="50" as="targetPoint" />
@@ -80,7 +80,7 @@
         <mxCell id="Tg3254VQat_Gvoc-51zZ-23" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" vertex="1" parent="1">
           <mxGeometry x="1020" y="-111" width="101" height="101" as="geometry" />
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-23">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="100" as="sourcePoint" />
             <mxPoint x="200" y="50" as="targetPoint" />
@@ -99,7 +99,7 @@
             <mxPoint x="310" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-5">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="380" as="sourcePoint" />
             <mxPoint x="310" y="330" as="targetPoint" />
@@ -108,7 +108,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1.062;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-16">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1.062;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="370" as="sourcePoint" />
             <mxPoint x="310" y="320" as="targetPoint" />
@@ -117,7 +117,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.011;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-5">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.011;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="650" as="sourcePoint" />
             <mxPoint x="250" y="600" as="targetPoint" />
@@ -126,7 +126,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.617;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-16">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.617;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="620" as="sourcePoint" />
             <mxPoint x="310" y="570" as="targetPoint" />
@@ -145,7 +145,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-34" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-34" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="160" as="sourcePoint" />
             <mxPoint x="700" y="740" as="targetPoint" />
@@ -160,7 +160,7 @@
         <mxCell id="Tg3254VQat_Gvoc-51zZ-37" value="zaperon-client-backend&lt;br&gt;port:8451" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="260" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.987;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-5">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.987;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1080" y="360" as="sourcePoint" />
             <mxPoint x="1130" y="310" as="targetPoint" />
@@ -169,7 +169,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-16">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;strokeWidth=2;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1010" y="260" as="sourcePoint" />
             <mxPoint x="1080" y="210" as="targetPoint" />
@@ -182,13 +182,13 @@
         <mxCell id="Tg3254VQat_Gvoc-51zZ-42" value="zaperon-client-backend&lt;br&gt;port:8451" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="250" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-43" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-43" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1060" y="260" as="sourcePoint" />
             <mxPoint x="1058" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tg3254VQat_Gvoc-51zZ-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-42">
+        <mxCell id="Tg3254VQat_Gvoc-51zZ-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" edge="1" parent="1" target="Tg3254VQat_Gvoc-51zZ-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1120" y="-40" as="sourcePoint" />
             <mxPoint x="1170" y="-90" as="targetPoint" />
