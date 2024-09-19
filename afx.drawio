@@ -1,138 +1,144 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Page-1" id="GmY5U8yy-P_f_rLQDMQf">
-    <mxGraphModel dx="1588" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1444" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="1110" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="300" width="1000" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-7" value="PROD 1 Server" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-7" value="PROD 1 Server" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="480" width="330" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-9" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="xsujtY2_DvGvpz-2QIMJ-7">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-9" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" parent="xsujtY2_DvGvpz-2QIMJ-7" vertex="1">
           <mxGeometry x="20" y="230" width="90" height="94.5" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.001;entryY=0.849;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xsujtY2_DvGvpz-2QIMJ-7" target="xsujtY2_DvGvpz-2QIMJ-7">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.001;entryY=0.849;entryDx=0;entryDy=0;entryPerimeter=0;" parent="xsujtY2_DvGvpz-2QIMJ-7" target="xsujtY2_DvGvpz-2QIMJ-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="110" y="290" as="sourcePoint" />
             <mxPoint x="160" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-25" value="Apache is running to expose the application using ports 80 and 443" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xsujtY2_DvGvpz-2QIMJ-7">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-25" value="Apache is running to expose the application using ports 80 and 443" style="rounded=0;whiteSpace=wrap;html=1;" parent="xsujtY2_DvGvpz-2QIMJ-7" vertex="1">
           <mxGeometry x="100" y="91.2" width="150" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-27" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.apache" vertex="1" parent="xsujtY2_DvGvpz-2QIMJ-7">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-27" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.apache" parent="xsujtY2_DvGvpz-2QIMJ-7" vertex="1">
           <mxGeometry x="100" y="91.2" width="42.6" height="45.2" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-8" value="PROD 2 Server" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-8" value="PROD 2 Server" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="480" width="330" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-10" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="xsujtY2_DvGvpz-2QIMJ-8">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-10" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" parent="xsujtY2_DvGvpz-2QIMJ-8" vertex="1">
           <mxGeometry x="220" y="229.5" width="90" height="95.5" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.012;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xsujtY2_DvGvpz-2QIMJ-8" target="xsujtY2_DvGvpz-2QIMJ-14">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.012;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" parent="xsujtY2_DvGvpz-2QIMJ-8" target="xsujtY2_DvGvpz-2QIMJ-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="270" as="sourcePoint" />
             <mxPoint y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-12" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-12" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" parent="1" vertex="1">
           <mxGeometry x="460" y="690" width="79.3" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-13" value="Firewall needs to allow 3306 port" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-13" value="Firewall needs to allow 3306 port" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="820" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-14" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-14" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" parent="1" vertex="1">
           <mxGeometry x="670" y="690" width="79.3" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-15" value="Firewall needs to allow 3306 port" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-15" value="Firewall needs to allow 3306 port" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="820" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xsujtY2_DvGvpz-2QIMJ-14">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xsujtY2_DvGvpz-2QIMJ-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="530" y="755" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xsujtY2_DvGvpz-2QIMJ-12">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xsujtY2_DvGvpz-2QIMJ-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="754" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.046;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xsujtY2_DvGvpz-2QIMJ-14">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.046;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="xsujtY2_DvGvpz-2QIMJ-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="770" as="sourcePoint" />
             <mxPoint x="580" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.983;exitY=0.616;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xsujtY2_DvGvpz-2QIMJ-14">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.983;exitY=0.616;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="xsujtY2_DvGvpz-2QIMJ-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="750" y="770" as="sourcePoint" />
             <mxPoint x="960" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-28" value="Apache is running to expose the application using ports 80 and 443" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-28" value="Apache is running to expose the application using ports 80 and 443" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="571.2" width="150" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-29" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.apache" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-29" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.apache" parent="1" vertex="1">
           <mxGeometry x="850" y="571.2" width="42.6" height="45.2" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-30" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-30" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" parent="1" vertex="1">
           <mxGeometry x="300" y="420" width="61.7" height="101.15" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-31" value="firewall needs to allow ports 80 and 443 to access the application from outside." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-31" value="firewall needs to allow ports 80 and 443 to access the application from outside." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="430" width="158" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-32" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-32" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" parent="1" vertex="1">
           <mxGeometry x="880" y="404.43" width="61.7" height="101.15" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-33" value="firewall needs to allow ports 80 and 443 to access the application from outside." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-33" value="firewall needs to allow ports 80 and 443 to access the application from outside." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="940" y="430" width="158" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-34" value="AFX USERS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" vertex="1" parent="1">
-          <mxGeometry x="490" y="60" width="170" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.589;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xsujtY2_DvGvpz-2QIMJ-25">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.589;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="xsujtY2_DvGvpz-2QIMJ-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="500" as="sourcePoint" />
             <mxPoint x="370" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.333;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xsujtY2_DvGvpz-2QIMJ-28">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.333;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="xsujtY2_DvGvpz-2QIMJ-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="900" y="490" as="sourcePoint" />
             <mxPoint x="950" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-39" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-39" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="900" y="360" as="sourcePoint" />
             <mxPoint x="320" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-40" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="360" as="sourcePoint" />
             <mxPoint x="320" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-42" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="900" y="360" as="sourcePoint" />
             <mxPoint x="900" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-44" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;AFX Production Environment&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="300" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mDgROTAUPEX-LycFD1ks-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="50" width="345" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mDgROTAUPEX-LycFD1ks-3" value="AFX Users" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" vertex="1" parent="1">
+          <mxGeometry x="508" y="60" width="119" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="mDgROTAUPEX-LycFD1ks-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;AFX VPN&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mDgROTAUPEX-LycFD1ks-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="250" as="sourcePoint" />
+            <mxPoint x="570" y="200" as="sourcePoint" />
             <mxPoint x="570" y="360" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-44" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;AFX Production Environment&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="300" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
