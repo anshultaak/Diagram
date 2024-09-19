@@ -22,7 +22,7 @@
             <mxPoint x="160" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-25" value="Apache is running to expose the application using ports 80 and 443t" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xsujtY2_DvGvpz-2QIMJ-7">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-25" value="Apache is running to expose the application using ports 80 and 443" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xsujtY2_DvGvpz-2QIMJ-7">
           <mxGeometry x="100" y="91.2" width="150" height="105" as="geometry" />
         </mxCell>
         <mxCell id="xsujtY2_DvGvpz-2QIMJ-27" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.apache" vertex="1" parent="xsujtY2_DvGvpz-2QIMJ-7">
@@ -74,7 +74,7 @@
             <mxPoint x="960" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsujtY2_DvGvpz-2QIMJ-28" value="Apache is running to expose the application using ports 80 and 443t" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xsujtY2_DvGvpz-2QIMJ-28" value="Apache is running to expose the application using ports 80 and 443" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="571.2" width="150" height="105" as="geometry" />
         </mxCell>
         <mxCell id="xsujtY2_DvGvpz-2QIMJ-29" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.apache" vertex="1" parent="1">
