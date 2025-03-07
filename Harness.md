@@ -44,25 +44,25 @@
 **Pros and Cons:**
 
 *Harness:*
-✅ AI-powered automation and cost tracking.
-✅ Managed solution with built-in security.
-✅ Easier to use with UI-driven workflows.
-❌ Paid solution; costs may be a factor.
-❌ Less extensibility compared to Jenkins.
+- ✅ AI-powered automation and cost tracking.
+- ✅ Managed solution with built-in security.
+- ✅ Easier to use with UI-driven workflows.
+- ❌ Paid solution; costs may be a factor.
+- ❌ Less extensibility compared to Jenkins.
 
 *Jenkins:*
-✅ Highly customizable with a vast plugin ecosystem.
-✅ Free and open-source.
-✅ Strong community support.
-❌ Requires self-hosting and maintenance.
-❌ Steep learning curve, scripting-heavy.
+- ✅ Highly customizable with a vast plugin ecosystem.
+- ✅ Free and open-source.
+- ✅ Strong community support.
+- ❌ Requires self-hosting and maintenance.
+- ❌ Steep learning curve, scripting-heavy.
 
 *GitHub Actions:*
-✅ Seamless GitHub integration.
-✅ Cloud-based with minimal setup.
-✅ Free for public repositories.
-❌ Limited flexibility compared to Jenkins.
-❌ Workflow complexity increases with scale.
+- ✅ Seamless GitHub integration.
+- ✅ Cloud-based with minimal setup.
+- ✅ Free for public repositories.
+- ❌ Limited flexibility compared to Jenkins.
+- ❌ Workflow complexity increases with scale.
 
 **Conclusion:**
 - Harness is ideal for enterprises seeking automation, security, and cost governance.
